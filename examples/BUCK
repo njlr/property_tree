@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'custom-data-type', 
+  srcs = [
+    'custom_data_type.cpp',
+  ],
+  deps = [
+    '//:boost-property-tree',
+  ],
+)
+
+cxx_binary(
+  name = 'empty-ptree-trick', 
+  srcs = [
+    'empty_ptree_trick.cpp',
+  ],
+  deps = [
+    '//:boost-property-tree',
+  ],
+)
