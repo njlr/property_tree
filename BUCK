@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-property-tree', 
+  name = 'property-tree', 
   header_only = True,
   header_namespace = 'boost/property_tree', 
   exported_headers = subdir_glob([
